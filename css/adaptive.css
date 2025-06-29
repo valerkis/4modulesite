@@ -1,0 +1,379 @@
+@media only screen and (min-device-width: 360px) and (max-device-width: 767px){
+    .logo, .square{
+        top: 5vw;
+        left: 5vw;
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .about_section{
+        width: 80vw;
+        font-size: 3.8vw;
+        font-weight: 300;
+        margin-bottom: 20vw;
+        margin-left: 5vw;
+    }
+
+    .header{
+        font-size: 7.8vw;
+    }
+
+    #headermain{
+        margin-left: 5vw;
+    }
+
+    .icon{
+        width: 5vw;
+        height: 7vw;
+        margin-bottom: 11.6vw;
+        margin-left: 5vw;
+    }
+
+    .vertical{
+        width: 13vw;
+    }
+
+    #map{
+        width: 7.05vw;
+        height: 8.71vw;
+    }
+
+    #play{
+        width: 6.01vw;
+        height: 7.71vw;
+    }
+
+    #shop{
+        width: 7.07vw;
+        height: 8.78vw;
+    }
+
+    #line{
+        width: 0.3vw;
+        top: 8.6vw;
+        bottom: 10.35vw;
+    }
+
+    .sections{
+        flex-direction: column;
+    }
+
+    .sec{
+        width: 100vw;
+        height: 33.32vh;
+    }
+
+    .sec_pic {
+        width: 96.2vw;
+        height: 46.68vw;
+        border: solid 0.2vw #212121;
+    }
+
+    .space_icon {
+        width: 10.66vw;
+        height: 6vw;
+    }
+
+    .player_icon {
+        width: 6.5vw;
+        height: 8.09vw;
+    }
+
+    #player {
+        border-top: solid 0.2vw #212121;
+        border-bottom: solid 0.2vw #212121;
+    }
+
+    .shop_icon {
+        width: 6.46vw;
+        height: 8vw;
+    }
+
+    #space_pic {
+        background-image: url(../img/space_colorpic.svg);
+    }
+
+    #player_pic {
+        background-image: url(../img/player_colorpic.svg);
+    }
+
+    #shop_pic {
+        background-image: url(../img/shop_colorpic.svg);
+    }
+
+    #space_d{
+        width: 10.9vw;
+        height: 6vw;
+    }
+
+    .anim6{
+        top: 5vw;
+        left: 5vw;
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .ring1, .ring2, .ring3, .ring4{
+        scale: 4;
+    }
+
+    #space_start{
+        min-height: 50vh;
+    }
+
+    #playerbtn2, #shopbtn{
+        height: 50vh;
+    }
+
+    #playerbtn2{
+        top: 50vh;
+        bottom: 0;
+        right: 0;
+    }
+
+    .btntxt{
+        bottom: 13.5vw;
+        font-size: 7.3vw;
+    }
+
+    #playerbtntxt {
+        bottom: 8.5vw;
+    }
+
+    #shopvertical{
+        position: relative;
+        top: 57vw;
+        width: 7.07vw;
+        height: 8.78vw;
+        background-image: url("../img/shop_light.svg");
+        background-size: cover;  
+    }
+
+    #playeric{
+        position: relative;
+        top: 70vw;
+        width: 5.05vw;
+        height: 6.75vw;
+    }
+
+     .posters{
+        height: 251.91vw;
+    }
+
+    .poster{
+        width: 39.8vw;
+        height: 59.16vw;
+    }
+
+    #booktxt{
+        letter-spacing: -0.65vw;
+    }
+
+    .bookimg{
+        height: 75vw;
+    }
+
+    .bookrender{
+        width: 36.7vw;
+        height: 28.75vw;
+    }
+
+    #brender2{
+        top: 10vw;
+    }
+
+    #brender4{
+        top: 14vw;
+    }
+
+    #brender5{
+        top: 21vw;
+        left: 3vw;
+    }
+
+    #brender6{
+        top: 17vw;
+    }
+
+    #brender7{
+        top: 34vw;
+    }
+
+    #brender4, #brender7{
+        left: 48vw;
+    }
+
+    #brender9{
+        left: 40vw;
+    }
+
+    .footerblock{
+        font-size: 2.25vw;
+    }
+
+    .footer, .anim8{
+        height: 25vw;
+    }
+
+    #spacebtn, #playerbtn{
+        height: 50vh;
+        right: 0;
+        left: auto;
+    }
+
+    #playerbtn{
+        top: 50vh;
+    }
+
+    .info, #shop_start, .whole_shop, #shopfooter{
+        justify-self: left;
+    }
+
+    #spacebtntxt{
+        bottom: 24.2vw;
+    }
+
+    #shop_start{
+        min-height: 50vh;
+    }
+
+    #space{
+        width: 6.1vw;
+        height: 7.5vw;
+        top: 38vw;
+    }
+
+    .aball1, .aball2, .aball3, .aball4, .aball5, .aball6, 
+    .aball7, .aball8, .aball9, .aball10, .aball11, .aball12, 
+    .aball13, .aball14, .aball15, .aball16, .aball17{
+        width: 2.65vw;
+        height: 2.65vw;
+    }
+
+    #shop_d{
+        width: 5.3vw;
+        height: 6.7vw;
+    }
+
+    #shopheader{
+        left: 3vw;
+    }
+
+    .whole_shop{
+        height: 118vw;
+        align-content: space-between;
+    }
+
+    .shop_main{
+        height: 111vw;
+    }
+
+    .merch{
+        width: 41.15vw;
+        height: 35.48vw;
+    }
+
+    .itemimg{
+        width: 38.02vw;
+        height: 25.8vw;
+    }
+
+    .itemtxt{
+        font-size: 2.25vw;
+        bottom: 2.5vw;;
+    }
+
+    .basket{
+        width: 5vw;
+        height: 5.8vw;
+        bottom: 1.2vw;
+    }
+
+    .order{
+        width: 100%;
+        height: 5vw;
+        font-size: 2.25vw;
+    }
+
+    .popup-form{
+        width: 70vw;
+        height: 55vw;
+    }
+
+    .popup-form label {
+    font-size: 3.25vw;
+    }
+
+    .popup-form input{
+        height: 4.89vw;
+        font-size: 3.25vw;
+    }
+
+    .popup-form button[type="submit"], .popup-form textarea{
+        width: 100%;
+        height: 6vw;
+        height: 4.89vw;
+        font-size: 3.25vw;
+    }
+
+    .popup-form button[type="submit"]{
+        padding: 0;
+    }
+
+    .txt404{
+        font-size: 15vw;
+    }
+
+    .anim404{
+        width: 15vw;
+        left: 0;
+        top: 2vw;
+    }
+
+    #home {
+        position: relative;
+        width: 6vw;
+        height: 8.5vw;
+    }
+
+    #homebtntxt {
+    width: 46.48vw;
+    bottom: 20vw;
+    }
+
+    #player_start{
+        justify-self: left;
+        min-height: 50vh;
+    }
+
+    .player_versions{
+        width: 100vw;
+        justify-self: left;
+        min-height: 39vh;      
+    }
+
+    #playerheader{
+        margin-left: 5vw;
+    }
+
+    #player_d{
+        width: 6vw;
+    }
+
+    .cball1, .cball2, .cball3, .cball4,
+    .cball5, .cball6, .cball7, .cball8{
+        width: 2.24vw;
+        height: 2.24vw;
+    }
+
+    .version{
+        height: 39vh;
+    }
+
+    #playerfooter{
+        width: 100vw;
+        justify-self: left;
+    }
+
+
+    }
