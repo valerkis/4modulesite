@@ -1,0 +1,757 @@
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+}
+
+.section{
+  width: 100vw;
+  height: 56.25vw;
+  display: none;
+}
+
+.section.active{
+  display: block;
+}
+
+#sec1{
+  background-size: contain;
+  cursor: url("../img/cursor.svg"), auto;
+  background: conic-gradient(from 180deg,  
+  #A9A9A9 0%,  
+  #909747 13%,  
+  #7C7BC8 25%,  
+  #FF3E3E 37%,  
+  #FFC556 50%,  
+  #9FFFFF 63%,  
+  #FF5C00 75%,  
+  #FF427A 87%,  
+  #A9A9A9 100%  
+);
+}
+
+#emotionWheel{
+  position: absolute;
+  top: 13.3vw;
+  left: 35.3vw;
+  width: 29.41vw;
+  height: 29.57vw;
+  background-image: url("../img/emotionwheel.svg");
+  background-size: contain;
+}
+
+.header{
+  position: absolute;
+  font-family: "Geologica";
+  font-size: 1.45vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -0.085vw;
+  padding-top: 1.9vw;
+  padding-left: 3vw;
+}
+
+.emotion-section {
+  display: none;
+}
+
+.emotion-section.active {
+  display: block;
+}
+
+.openBtn{
+  position: absolute;
+  border: none;
+  background: transparent;
+  margin-top: 1.9vw;
+  margin-left: 94.7vw;
+  width: 2.6vw;
+  height: 2.9vw; 
+}
+
+  #openBtn1{
+  background-image: url("../img/popupBtn-1.svg");
+  background-size: cover; 
+  cursor: url("../img/cursor-pointer.svg"), auto;
+  }
+
+  .popup{
+  display: none;
+  position: absolute;
+  top: 4.3vw;
+  height: auto; 
+  font-family: "Geologica";
+  font-size: 1.45vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -0.085vw;
+  line-height: 121%;
+  background-color: transparent;
+  border: none;
+  padding: 0.4vw;
+  }
+
+  #popup1{
+  right: 2.1vw;
+  width: 21.1vw;
+  background-image: url("../img/popup-corner.svg");
+  background-size: 2.34vw 2.34vw;
+  background-repeat: no-repeat;
+  }
+
+  #info{
+  position: absolute;
+  top: 50.5vw;
+  left: 3vw;
+  color: black;
+  font-family: "Geologica";
+  font-size: 1.45vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -0.085vw;
+  line-height: 121%;
+}
+
+#infopic{
+  width: 3.13vw;
+  height: 3.13vw;
+  background-image: url("../img/info.svg");
+  position: absolute;
+  top: 50.7vw;
+  left: 1vw;
+  background-size: contain; 
+}
+
+#reset{
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  background-image: url("../img/restart.svg");
+  background-size: contain;
+  top: 50.7vw;
+  left: 20vw;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+.back{
+  width: 2.5vw;
+  height: 2.6vw; 
+  position: absolute;
+  top: 48.5vw;
+  left: 94.7vw;
+  background-color: transparent;
+  border: none;
+  background-size: cover;
+}
+
+#back1{
+  background-image: url("../img/backNotActive.svg");
+}
+
+.forward{
+  width: 2.5vw;
+  height: 2.6vw; 
+  position: absolute;
+  top: 51.3vw;
+  left: 94.7vw;
+  background-color: transparent;
+  border: none;
+  background-size: cover;
+}
+
+#forward1{
+  background-image: url("../img/forwardActive.svg");
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+#sec2{
+  background-color: #212121;
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+
+#header2{
+  color: white;
+  z-index: 3;
+}
+
+#openBtn2{
+  background-image: url("../img/popupBtn-2.svg");
+  background-size: cover; 
+  cursor: url("../img/cursor-sec2.svg"), auto;
+  z-index: 3;
+}
+
+#popup2{
+  right: 5vw;
+  width: 18.16vw;
+  color: white;
+  background-image: url("../img/popup-corner2.svg");
+  background-size: 2.34vw 2.34vw;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.problem{
+  position: absolute;
+  font-family: "Geologica";
+  font-size: 1.45vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -0.085vw;
+  padding: 1vw;
+  color: white;
+  z-index: 2;
+}
+
+#problem1{
+  top: 5vw;
+  left: 15vw;
+}
+
+#problem2{
+  top: 10.8vw;
+  left: 58.5vw;
+}
+
+#problem3{
+  top: 17vw;
+  left: 10.6vw;
+}
+
+#problem4{
+  top: 28.8vw;
+  left: 76.3vw;
+}
+
+#problem5{
+  top: 35.5vw;
+  left: 3vw;
+}
+
+#problem6{
+  top: 45.4vw;
+  left: 47vw;
+}
+
+.problem:hover{
+  color: #212121;
+  transition: ease 0.5s;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+.problem span{ 
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.problem span.default{
+  opacity: 1;
+}
+.problem span.hover{
+  opacity: 0;
+  position: absolute;
+  top: 0.9vw;
+  width: max-content;
+}
+
+.problem:hover .default{
+  opacity: 0;
+}
+
+.problem:hover .hover{
+  opacity: 1;
+}
+
+#spotlight {
+  position: absolute;
+  width: 150vw;
+  height: 100vw;
+  top: 28vw;
+  left: 50vw;
+  border-radius: 50%;
+  pointer-events: none; 
+} 
+
+#back2{
+  background-image: url("../img/backActivewhite.svg");
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+
+#forward2{
+  background-image: url("../img/forwardActivewhite.svg");
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+
+#sec3{
+  background-color: #212121;
+  /* background-image: url("../img/экран3.svg"); */
+  cursor: url("../img/cursor-sec2.svg"), auto;
+  background-size: contain;
+}
+
+#header3{
+  color: white;
+}
+
+#back3{
+  background-image: url("../img/backActivewhite.svg");
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+
+#forward3{
+  background-image: url("../img/forwardNotActive.svg");
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+
+.vinylWrapper{
+  position: absolute;
+  width: 29.38vw;
+  height: 29.38vw;
+  top: 2.89vw;
+  left: 35.16vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#vAnger{
+  background-image: url("../img/angervynil.svg");
+}
+
+#vSad{
+  background-image: url("../img/sadvynil.svg");
+}
+
+#vFear{
+  background-image: url("../img/fearvynil.svg");
+}
+
+#vPassive{
+  background-image: url("../img/passivevynil.svg");
+}
+
+#vLove{
+  background-image: url("../img/lovevynil.svg");
+}
+
+#vJoy{
+  background-image: url("../img/joyvynil.svg");
+}
+
+#vDesire{
+  background-image: url("../img/desirevynil.svg");
+}
+
+#vActivity{
+  background-image: url("../img/activevynil.svg");
+}
+
+#playlist{
+  position: absolute;
+  width: 13.20vw;
+  height: 15vw;
+  top: 6.2vw;
+  left: 5.2vw;
+}
+
+#trackList{
+  width: 13.20vw;
+  height: 14.1vw;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title{
+  width: 30vw;
+  font-family: "Geologica";
+  font-size: 1.45vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -0.085vw;
+}
+
+.artist{
+  width: 30vw;
+  position: absolute;
+  font-family: "Geologica";
+  font-size: 1vw;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: -0.085vw;
+  color: white;
+  left: 1.9vw;
+}
+
+.track{
+  top: 2vw;
+}
+
+#anger1{
+  color: #FF2D2D;
+}
+
+#anger2{
+  color: #FF5353;
+}
+
+#anger3{
+  color: #FFA6A6;
+}
+
+#anger4{
+  color: #FFE2E2;
+}
+
+#anger5{
+  color: white;
+}
+
+#sad1{
+  color: #7C7BC8;
+}
+
+#sad2{
+  color: #8E8DC7;
+}
+
+#sad3{
+  color: #AEAEC9;
+}
+
+#sad4{
+  color: #C1C0D5;
+}
+
+#sad5{
+  color: white;
+}
+
+#fear1{
+  color: #909747;
+}
+
+#fear2{
+  color: #9CA162;
+}
+
+#fear3{
+  color: #BDBFA1;
+}
+
+#fear4{
+  color: #B7B999;
+}
+
+#fear5{
+  color: white;
+}
+
+#passivity1{
+  color: #A9A9A9;
+}
+
+#passivity2{
+  color: #c5c5c5;
+}
+
+#passivity3{
+  color: #e4e4e4;
+}
+
+#passivity4{
+  color: #f0f0f0;
+}
+
+#passivity5{
+  color: white;
+}
+
+#love1{
+  color: #FF427A;
+}
+
+#joy{
+  color: #FF5C00;
+}
+
+#desire{
+  color: #9AF2F2;
+}
+
+#activity{
+  color: #FFC556;
+}
+
+
+
+#trackInfo{
+  position: absolute;
+  width: 11.99vw;
+  height: 3.16vw;
+  top: 35.12vw;
+  left: 33.59vw;
+  font-family: "Geologica";
+  text-transform: uppercase;
+  letter-spacing: -0.085vw;
+}
+
+#currentTitle{
+  width: 50vw;
+  font-size: 1.91vw;
+  font-weight: 300;
+  color: white;
+}
+
+#currentArtist{
+  width: 50vw;
+  font-size: 1.45vw;
+  font-weight: 300;
+  color: white;
+}
+
+#controls{
+  position: absolute;
+  width: 21.33vw;
+  height: 4.06vw;
+  top: 44.22vw;
+  left: 39.3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#prevTrack, #nextTrack{
+  position: relative;
+  width: 3.32vw;
+  height: 2.97vw;
+  background-color: transparent;
+  border: none;
+  background-size: cover; 
+}
+
+#prevTrack{
+  background-image: url("../img/previousActive.svg");
+}
+
+#nextTrack{
+  background-image: url("../img/nextActive.svg");
+}
+
+#playBtn, #pauseBtn{
+  position: relative;
+  height: 4.10vw;
+  background-color: transparent;
+  border: none;
+  background-size: cover; 
+} 
+
+#playBtn {
+  width: 3.55vw;
+  background-image: url("../img/play.svg");
+}
+
+#pauseBtn {
+  width: 2.73vw;
+  background-image: url("../img/pause.svg");
+}
+
+.hidden{
+  display: none;
+}
+
+.play{
+  width: 3.55vw;
+  background-image: url("../img/play.svg");
+} 
+
+.pause{
+  width: 2.73vw;
+  background-image: url("../img/pause.svg");
+} 
+
+.emotion-section{
+  position: absolute;
+  width: 80vw;
+  height: 10vw;
+}
+
+#emotionHeader{
+  left: 14vw;
+  color: white;
+}
+
+.emotionBtn{
+  width: 2vw;
+  height: 2vw;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#emotionSelectors{
+  position: absolute;
+  right: 3vw;
+  top: 1.9vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+
+.emotionBtn{
+  cursor: url("../img/cursor-sec2.svg"), auto;;
+}
+
+.emotionBtn[data-emotion="activity"] {
+  background-color: #FFC556;
+}
+
+.emotionBtn[data-emotion="admiration"] {
+  background-color: #9FFFFF;
+}
+
+.emotionBtn[data-emotion="joy"] {
+  background-color: #FF5C00;
+}
+
+.emotionBtn[data-emotion="love"] {
+  background-color: #FF427A;
+}
+
+.emotionBtn[data-emotion="passivity"] {
+  background-color: #A9A9A9;
+}
+
+.emotionBtn[data-emotion="sadness"] {
+  background-color: #7C7BC8;
+}
+
+.emotionBtn[data-emotion="fear"] {
+  background-color: #909747;
+}
+
+.emotionBtn[data-emotion="anger"] {
+  background-color: #FF3E3E;
+}
+
+#progressBar{
+  position: absolute;
+  top: 38.1vw;
+  left: 33.59vw;
+}
+
+#seekBar {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.16vw;
+  width: 32.85vw;
+  background: white; 
+  border-radius: 5vw; 
+  outline: none; 
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+
+#seekBar::-moz-range-track {
+  background: white;
+  height: 1vw;
+  border-radius: 5vw;
+}
+
+#seekBar::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2vw;
+  height: 2vw;
+  background: white;
+  border-radius: 50%; 
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+
+#seekBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0.63vw;
+  height: 0.63vw;
+  background: white;
+  border-radius: 50%;
+  cursor: url("../img/cursor-sec2.svg"), auto;
+}
+.playTime{
+  position: absolute;
+  top: 40.23vw;
+  left: 33.59vw;
+  font-family: "Geologica";
+  font-size: 1.09vw;
+  font-weight: 300;
+  color: white;
+  letter-spacing: -0.085vw;
+  width: 32.85vw;
+  justify-content: space-between;
+  display: flex;
+}
+
+#currentTime{
+  position: relative;
+}
+
+#totalTime{
+  position: relative;
+}
+
+.emotionSection {
+  display: none;
+}
+
+.emotionSection.active {
+  display: block;
+}
+
+.backHalo{
+  position: absolute;
+  width: 85vw;
+  height: 85vw;
+  top: 35vw;
+  left: 5vw;
+  border-radius: 50%;
+  filter: blur(50vw);
+}
+
+#activityHalo{
+  background: #ffc24d;
+}
+
+#desireHalo{
+  background: #9AF2F2;
+}
+
+#joyHalo{
+  background: #FF5C00;
+}
+
+#loveHalo{
+  background: #FF427A;
+}
+
+#fearHalo{
+  background: #909747;
+}
+
+#passiveHalo{
+  background: #A9A9A9;
+}
+
+#fearHalo{
+  background: #909747;
+}
+
+#sadHalo{
+  background: #7C7BC8;
+}
+
+#angerHalo{
+  background: #DD1E1E;
+}

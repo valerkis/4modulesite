@@ -1,0 +1,1476 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: "Raleway";
+  cursor: url("../img/cursor.svg"), auto;
+}
+
+/* /убрать потом/ */
+.m1{
+  width: 100vw;
+  height: 52.73vw;
+  background-image: url("../img/плеер.svg");
+  background-size: cover;
+  z-index: -10;
+}
+
+.info{
+  position: relative;
+  width: 87.66vw;
+}
+
+#main{
+    height: 100vh;
+}
+
+.logo{
+  position: absolute;
+  top: 1.56vw;
+  left: 1.56vw;
+  width: 10.55vw;
+  height: 10.55vw;
+  background-image: url("../img/logo_main.svg");
+  background-size: cover;
+}
+
+.about_section{
+  position: absolute;
+  width: 36.84vw;
+  font-size: 1.25vw;
+  font-weight: 400;
+  bottom: 0;
+  margin-bottom: 11.84vw;
+  margin-left: 1.56vw;
+  color: #212121;
+}
+
+.header{
+  position: absolute;
+  width: 26.48vw;
+  font-size: 4.30vw;
+  font-weight: 100;
+  letter-spacing: -0.2vw;
+  text-transform: uppercase;
+  bottom: 0;
+  margin-bottom: 2vw;
+  margin-left: 1.3vw;
+  color: #212121;
+}
+
+.icon{
+  position: absolute;
+  width: 2.15vw;
+  height: 3.05vw;
+  bottom: 0;
+  margin-bottom: 7.6vw;
+  margin-left: 1.56vw;
+}
+
+#home_d{
+  background-image: url("../img/home_dark.svg");
+  background-size: cover;
+}
+
+.vertical{
+  position: fixed;
+  width: 6.17vw;
+  height: 100vh;
+  background-color: #212121;
+  border: none;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.56vw;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+:hover.vertical{
+  background-color: #FEA153;
+  transition: ease 0.2s;
+}
+
+#index{
+  right: 0;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+#map{
+  position: relative;
+  width: 3.05vw;
+  height: 3.71vw;
+  background-image: url("../img/map_light.svg");
+  background-size: cover;
+}
+
+#play{
+  position: relative;
+  width: 3.01vw;
+  height: 3.71vw;
+  background-image: url("../img/player_light.svg");
+  background-size: cover;
+  z-index: 1;
+}
+
+#shop{
+  position: relative;
+  width: 3.07vw;
+  height: 3.78vw;
+  background-image: url("../img/shop_light.svg");
+  background-size: cover;  
+}
+
+#line{
+  position: absolute;
+  width: 0.12vw;
+  height: auto;
+  background-color: #ffffff;
+  top: 4.6vw;
+  bottom: 5.35vw;
+  justify-self: center;
+}
+
+.sections{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+.sec{
+  position: relative;
+  width: 33.32vw;
+  height: 100vh;
+}
+
+:hover.sec{
+  background-color: #FEA153;
+  transition: ease 0.2s;
+}
+
+#space_txt{
+  letter-spacing: -0.3vw;
+}
+
+#player{
+  border-left: solid 0.12vw #212121;
+  border-right: solid 0.12vw #212121;
+  z-index: 1;
+}
+
+.sec_pic{
+  width: 30.20vw;
+  height: 16.68vw;
+  margin: 1.56vw;
+  border: solid 0.12vw #212121;
+}
+
+#space_pic{
+  background-image: url("../img/space_pic.svg");
+  background-size: cover;
+}
+
+#player_pic{
+  background-image: url("../img/player_pic.svg");
+  background-size: cover;
+}
+
+#shop_pic{
+  background-image: url("../img/shop_pic.svg");
+  background-size: cover;
+}
+
+.space_icon{
+  width: 5.66vw;
+  height: 3.09vw;
+  margin-left: 1.56vw;
+  background-image: url("../img/space_icon.svg");
+  background-size: cover;
+}
+
+.player_icon{
+  width: 2.50vw;
+  height: 3.09vw;
+  margin-left: 1.56vw;
+  background-image: url("../img/player_icon.svg");
+  background-size: cover;
+}
+
+.shop_icon{
+  width: 2.46vw;
+  height: 3.09vw;
+  margin-left: 1.56vw;
+  background-image: url("../img/shop_dark.svg");
+  background-size: cover;
+}
+
+#player_d{
+  width: 2.46vw;
+  background-image: url("../img/player_icon.svg");
+  background-size: cover;
+}
+
+#shop_d{
+  width: 2.5vw;
+  height: 3.11vw;
+  background-image: url("../img/shop_dark.svg");
+  background-size: cover;
+}
+
+#space_d{
+  width: 5.6vw;
+  height: 3.09vw;
+  background-image: url("../img/space_icon.svg");
+  background-size: cover;
+}
+
+.square{
+    width:  9.38vw;
+    height: 9.38vw;
+    position: absolute;
+    top: 1.56vw;
+    left: 1.56vw;
+}
+
+.anim5{
+    background-image: url("../img/anim5.svg");
+    background-size: 99%;
+}
+
+.cball1{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #7C7BC8;
+    position: absolute;
+    animation: cball1 2.2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball1{
+    0%{top: 46%; left: 1%}
+    100%{top: 46%; left: 37%}
+}
+
+.cball2{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FF5C00;
+    position: absolute;
+    animation: cball2 1s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball2{
+    0%{top: 46%; left: 90%}
+    100%{top: 46%; left: 55%}
+}
+
+.cball3{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #A9A9A9;
+    position: absolute;
+    animation: cball3 2.5s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball3{
+    0%{top: 90%; left: 46%}
+    100%{top: 56%; left: 46%}
+}
+
+.cball4{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FFC556;
+    position: absolute;
+    animation: cball4 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball4{
+    0%{top: 27%; left: 57%}
+    50%{top: 35%; left: 46%}
+    100%{top: 1%; left: 46%}
+}
+
+.cball5{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FF427A;
+    position: absolute;
+    animation: cball5 3s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball5{
+    0%{top: 63%; left: 74%}
+    50%{top: 53%; left: 54%}
+    100%{top: 77%; left: 78%}
+}
+
+.cball6{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FF3E3E;
+    position: absolute;
+    animation: cball6 3s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball6{
+    0%{top: 39%; left: 28%}
+    25%{top: 38%; left: 38%}
+    50%{top: 14%; left: 14%}
+    75%{top: 38%; left: 38%}
+    100%{top: 15%; left: 29%}
+}
+
+.cball7{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #9AF2F2;
+    position: absolute;
+    animation: cball7 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball7{
+    0%{top: 14%; left: 78%}
+    50%{top: 38%; left: 54%}
+    100%{top: 42%; left: 68%}
+}
+
+.cball8{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #909747;
+    position: absolute;
+    animation: cball8 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball8{
+    0%{top: 74%; left: 29%}
+    50%{top: 53%; left: 38%}
+    100%{top: 77%; left: 14%}
+}
+
+#player_start{
+  position: relative;
+  width: 87.66vw;
+  min-height: 100vh;
+  justify-self: center;
+}
+
+.player_versions{
+  position: relative;
+  width: 87.66vw;
+  min-height: 100vh;
+  justify-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.version{
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.30vw;
+  font-weight: 100;
+}
+
+.version:hover{
+  background-color: #FEA153;
+  transition: ease 0.2s;
+}
+
+#v1{
+  border-right: solid 0.08vw #212121;
+}
+
+#v2{
+  border-left: solid 0.08vw #212121;
+}
+
+.btntxt{
+  position: relative;
+  font-family: "Raleway";
+  font-size: 4.30vw;
+  font-weight: 100;
+  bottom: 7.5vw;
+  color: #ffffff;
+  letter-spacing: -0.2vw;
+  text-transform: uppercase;
+  rotate: -90deg;
+}
+
+#spacebtn{
+  left: 0;
+}
+
+#space{
+  position: relative;
+  width: 3.01vw;
+  height: 3.71vw;
+  background-image: url("../img/space_light.svg");
+  background-size: cover;
+}
+
+#spacebtntxt{
+  bottom: 14.2vw;
+}
+
+#playeric{
+  width: 3.05vw;
+  height: 3.75vw;
+  background-image: url("../img/player_light.svg");
+  background-size: cover;
+}
+
+#playerbtntxt{
+  bottom: 4.5vw;
+}
+
+#playerbtn{
+  left: 6.17vw;
+}
+
+#playerbtn2{
+  right: 6.17vw;
+}
+
+#shop_start{
+  position: relative;
+  width: 87.66vw;
+  min-height: 100vh;
+  justify-self: right;
+}
+
+.aball1{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    position: absolute;
+    animation: aball1 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball1{
+    0%{top: -10%; left: 46%}
+    100%{top: 34%; left: 46%}
+}
+
+.aball2{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    position: absolute;
+    animation: aball2 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball2{
+    0%{top: 110%; left: 46%}
+    100%{top: 58%; left: 46%}
+}
+
+.aball3{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    position: absolute;
+    animation: aball3 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball3{
+    0%{top: 46%; left: -10%}
+    100%{top: 46%; left: 34%}
+}
+
+.aball4{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    position: absolute;
+    animation: aball4 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball4{
+    0%{top: 46%; left: 110%}
+    100%{top: 46%; left: 58%}
+}
+
+.aball5{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    position: absolute;
+    animation: aball5 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball5{
+    0%{top: -10%; left: 110%}
+    100%{top: 37%; left: 55%}
+}
+
+.aball6{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    position: absolute;
+    animation: aball6 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball6{
+    0%{top: -10%; left: -10%}
+    100%{top: 37%; left: 37%}
+}
+
+.aball7{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #909747;
+    position: absolute;
+    animation: aball7 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball7{
+    0%{top: 110%; left: -10%}
+    100%{top: 55%; left: 37%}
+}
+
+.aball8{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    position: absolute;
+    animation: aball8 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball8{
+    0%{top: 110%; left: 110%}
+    100%{top: 55%; left: 55%}
+}
+
+.aball9{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #DAC3A1;
+    position: absolute;
+    animation: aball9 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball9{
+    0%{top: 45%; left: 110%}
+    100%{top: 45%; left: 70%}
+}
+
+.aball10{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #D4EDCB;
+    position: absolute;
+    animation: aball10 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball10{
+    0%{top: -10%; left: 100%}
+    100%{top: 28%; left: 61%}
+}
+
+.aball11{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #D85E76;
+    position: absolute;
+    animation: aball11 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball11{
+    0%{top: 0%; left: -10%}
+    100%{top: 39%; left: 28%}
+}
+
+.aball12{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #FF8C72;
+    position: absolute;
+    animation: aball12 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball12{
+    0%{top: -10%; left: 10%}
+    100%{top: 14%; left: 27%}
+}
+
+.aball13{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #B3B694;
+    position: absolute;
+    animation: aball13 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball13{
+    0%{top: 110%; left: 10%}
+    100%{top: 78%; left: 27%}
+}
+
+.aball14{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #D4A0B9;
+    position: absolute;
+    animation: aball14 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball14{
+    0%{top: 18%; left: -8%}
+    100%{top: 28%; left: 2%}
+}
+
+.aball15{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #DDD7C1;
+    position: absolute;
+    animation: aball15 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball15{
+    0%{top: 10%; left: 110%}
+    100%{top: 21%; left: 83%}
+}
+
+.aball16{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #FF7874;
+    position: absolute;
+    animation: aball16 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball16{
+    0%{top: 76%; left: 110%}
+    100%{top: 66%; left: 76%}
+}
+
+.aball17{
+    width: 0.71vw;
+    height: 0.71vw;
+    border-radius: 50%;
+    background-color: #EBA6BB;
+    position: absolute;
+    animation: aball17 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball17{
+    0%{top: 100%; left: 80%}
+    100%{top: 87%; left: 63%}
+}
+
+.whole_shop{
+  width: 87.66vw;
+  height: 52.73vw;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+  justify-self: right;
+}
+
+.shop_main{
+  width: 84.61vw;
+  height: 44.53vw;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  justify-self: center;
+}
+
+.merch{
+  position: relative;
+  width: 27.15vw;
+  height: 21.48vw;
+  border: #212121 solid 0.12vw;
+  transition: 0.3s ease;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+:hover.merch{
+  box-shadow: 0px 2px 17px -6px rgba(33, 33, 33, 0.4);
+}
+
+.itemtxt{
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 1.25vw;
+  left: 1.56vw;
+  bottom: 1vw;
+}
+
+.basket{
+  position: absolute;
+  right: 1.5vw;
+  bottom: 0.7vw;
+  width: 1.73vw;
+  height: 1.99vw;
+  padding: 0.1vw 0.1vw 0.1vw 0.1vw;
+  background-color: white;
+  border: none;
+  background-image: url("../img/basket.svg");
+  background-size: cover;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+.itemimg{
+  position: absolute;
+  width: 24.02vw;
+  height: 16.80vw;
+  margin: 1.56vw 1.56vw 0vw 1.56vw;
+  border: #212121 solid 0.12vw;
+}
+
+#itemimg1{
+  background-image: url("../img/itemimg1.png");
+  background-size: cover;
+}
+
+#itemimg2{
+  background-image: url("../img/itemimg2.png");
+  background-size: cover;
+}
+
+#itemimg3{
+  background-image: url("../img/itemimg3.png");
+  background-size: cover;
+}
+
+#itemimg4{
+  background-image: url("../img/itemimg4.png");
+  background-size: cover;
+}
+
+#itemimg5{
+  background-image: url("../img/itemimg5.png");
+  background-size: cover;
+}
+
+#itemimg6{
+  background-image: url("../img/itemimg6.png");
+  background-size: cover;
+}
+
+.order{
+  font-family: "Raleway";
+  font-size: 1.25vw;
+  font-weight: 400;
+  width: 12.58vw;
+  height: 3.71vw;
+  border: #212121 solid 0.12vw;
+  background-color: white;
+  position: relative;
+  margin: 1.56vw 1.56vw;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+:hover.order{
+    background-color: #FEA153;
+}
+
+#space_start{
+  position: relative;
+  width: 87.66vw;
+  min-height: 100vh;
+  justify-self: left;
+}
+
+.anim6{
+    width: 9.38vw;
+    height: 9.38vw;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.section404{
+  position: relative;
+  display: flex;
+  width: 87.66vw;
+  min-height: 100vh;
+  justify-self: left;
+  justify-content: center; 
+  align-items: center;
+}
+
+.anim404{
+    position: relative;
+    width: 1.13vw;
+    height: 1.13vw;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    top: 0.4vw;
+    left: 0;
+}
+
+.ring1{
+    position: absolute;
+    margin: auto;
+    animation: anim6 2.5s linear infinite;
+    animation-direction: normal;
+    z-index: 1;
+}
+
+#ring404{
+  position: relative;
+  align-self: center;
+  justify-self: center;
+}
+
+.ring1img{
+    width: 2.74vw;
+    height: 2.74vw;
+}
+
+@keyframes anim6{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+
+.ring2{
+    position: absolute;
+    margin: auto;
+    animation: anim6 4s linear infinite;
+}
+
+.ring2img{
+    width: 4.69vw;
+    height: 4.69vw;
+}
+
+.ring3{
+    position: absolute;
+    margin: auto;
+    animation: anim6 6s linear infinite;
+}
+
+.ring3img{
+    width: 7.03vw;
+    height: 7.03vw;
+}
+
+.ring4{
+    position: absolute;
+    margin: auto;
+    animation: anim6 9s linear infinite;
+}
+
+.ring4img{
+    width:  9.38vw;
+    height: 9.38vw;
+}
+
+.slider{
+  width: 87.66vw;
+  height: 52.73vw;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-content: space-between;
+}
+
+.render{
+  width: 17.54vw;
+  height: 52.73vw;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+  transition: ease 0.2s;
+}
+
+#render1{
+  background-image: url("../img/render1.png");
+  background-size: cover;
+}
+
+:hover#render1{
+    background-image: url("../img/render1color.png");
+  }
+
+#render2{
+  background-image: url("../img/render2.png");
+  background-size: cover;
+}
+
+:hover#render2{
+    background-image: url("../img/render2color.png");
+}
+
+#render3{
+  background-image: url("../img/render3.png");
+  background-size: cover;
+}
+
+:hover#render3{
+    background-image: url("../img/render3color.png");
+}
+
+#render4{
+  background-image: url("../img/render4.png");
+  background-size: cover;
+}
+
+:hover#render4{
+    background-image: url("../img/render4color.png");
+}
+
+#render5{
+  background-image: url("../img/render5.png");
+  background-size: cover;
+}
+
+:hover#render5{
+    background-image: url("../img/render5color.png");
+}
+
+#full1 { background-image: url("../img/render1full.png"); }
+#full2 { background-image: url("../img/render2full.png"); }
+#full3 { background-image: url("../img/render3full.png"); }
+#full4 { background-image: url("../img/render4full.png"); }
+#full5 { background-image: url("../img/render5full.png"); }
+
+.fullscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 87.66vw;
+  height: 52.73vw;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 5;
+  transition: opacity 0.3s ease;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+.fullscreen.active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 10;
+}
+
+.posters{
+  width: 84.92vw;
+  height: 54.91vw;
+  position: relative;
+  top: 1vw;
+  left: 1.17vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+#posterstxt, #booktxt{
+  width: auto;
+  position: relative;
+  top: 1.56vw;
+  margin-left: 1vw;
+}
+
+.poster{
+  border: #212121 solid 0.12vw;
+  width: 16.80vw;
+  height: 25.16vw;
+  position: relative;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+  transition: transform 0.3s ease;
+}
+
+#poster1 {
+  background-image: url("../img/poster1.png");
+  background-size: cover;
+}
+
+#poster2 {
+  background-image: url("../img/poster2.png");
+  background-size: cover;
+}
+
+#poster3 {
+  background-image: url("../img/poster3.png");
+  background-size: cover;
+}
+
+#poster4 {
+  background-image: url("../img/poster4.png");
+  background-size: cover;
+}
+
+#poster5 {
+  background-image: url("../img/poster5.png");
+  background-size: cover;
+}
+
+#poster6 {
+  background-image: url("../img/poster6.png");
+  background-size: cover;
+}
+
+#poster7 {
+  background-image: url("../img/poster7.png");
+  background-size: cover;
+}
+
+#poster8 {
+  background-image: url("../img/poster8.png");
+  background-size: cover;
+}
+
+:hover.poster{
+  transform: scale(1.05);
+}
+
+#booktxt{
+  width: auto;
+  position: relative;
+  top: 2.56vw;
+  margin-left: 1vw;
+}
+
+.bookimg{
+  width: 84.92vw;
+  height: 45vw;
+  position: relative;
+  top: 1.8vw;
+  left: 1.17vw;
+}
+
+.bookrender{
+  border: #212121 solid 0.1vw;
+  position: absolute;
+  width: 26.23vw;
+  height: 20.75vw;
+  background-size: cover;
+  transition: transform 0.5s ease;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+}
+
+:hover.bookrender{
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0px 2px 17px -6px rgba(33, 33, 33, 0.7);
+}
+
+#brender1 {
+  position: absolute;
+  background-image: url("../img/brender1.png");
+  background-size: cover;
+}
+
+#brender2 {
+  position: absolute;
+  top: 3vw;
+  left: 20vw;
+  background-image: url("../img/brender2.png");
+  background-size: cover;
+}
+
+#brender3 {
+  position: absolute;
+  left: 43vw;
+  background-image: url("../img/brender3.png");
+  background-size: cover;
+}
+
+#brender4 {
+  position: absolute;
+  top: 5vw;
+  left: 57vw;
+  background-image: url("../img/brender4.png");
+  background-size: cover;
+}
+
+#brender5 {
+  position: absolute;
+  top: 15vw;
+  left: 12vw;
+  background-image: url("../img/brender5.png");
+  background-size: cover;
+}
+
+#brender6 {
+  position: absolute;
+  top: 9vw;
+  left: 35vw;
+  background-image: url("../img/brender6.png");
+  background-size: cover;
+}
+
+#brender7 {
+  position: absolute;
+  top: 18vw;
+  left: 55vw;
+  background-image: url("../img/brender7.png");
+  background-size: cover;
+}
+
+#brender8 {
+  position: absolute;
+  bottom: 0vw;
+  left: 0vw;
+  background-image: url("../img/brender8.png");
+  background-size: cover;
+}
+
+#brender9 {
+  position: absolute;
+  bottom: 0vw;
+  left: 37vw;
+  background-image: url("../img/brender9.png");
+  background-size: cover;
+}
+
+.footer{
+  position: relative;
+  width: 87.66vw;
+  height: 11.09vw;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  z-index: -1;
+}
+
+#spacefooter{
+  top: 1.8vw;
+}
+
+
+#playerfooter{
+  justify-self: center;
+}
+
+#shopfooter{
+  justify-self: right;
+}
+
+.anim8{
+  position: absolute;
+  width: 87.66vw;
+  height: 11.09vw;
+}
+
+.eball1{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball11 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball11{
+    0%{top: 8%; left: 8%}
+    50%{top: 0%; left: 50%}
+    100%{top: 88%; left: 20%}
+}
+
+.eball2{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball12 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball12{
+    0%{top: 88%; left: 50%}
+    50%{top: 20%; left: 80%}
+    100%{top: 8%; left: 2%}
+}
+
+.eball3{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #909747;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball13 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball13{
+    0%{top: 20%; left: 5%}
+    50%{top: 80%; left: 30%}
+    100%{top: 40%; left: 2%}
+}
+
+.eball4{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball14 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball14{
+    0%{top: 60%; left: 5%}
+    50%{top: 80%; left: 90%}
+    100%{top: 40%; left: 30%}
+}
+
+.eball5{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball15 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball15{
+    0%{top: 10%; left: 10%}
+    50%{top: 20%; left: 100%}
+    100%{top: 70%; left: 30%}
+}
+
+
+.eball6{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball16 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball16{
+    0%{top: 10%; left: 80%}
+    50%{top: 70%; left: 10%}
+    100%{top: 30%; left: 60%}
+}
+
+.eball7{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball17 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball17{
+    0%{top: 80%; left: 30%}
+    50%{top: 20%; left: 10%}
+    100%{top: 40%; left: 100%}
+}
+
+
+.eball8{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    filter: blur(2vw);
+    position: absolute;
+    animation: eball18 30s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball18{
+    0%{top: 50%; left: 10%}
+    50%{top: 70%; left: 90%}
+    100%{top: 40%; left: 50%}
+}
+
+.footerblock{
+  position: relative;
+  font-family: "Raleway";
+  font-size: 1.25vw;
+  font-weight: 300;
+  margin: 0vw 1.56vw 0vw 1.56vw;
+}
+
+.txt404{
+  position: relative;
+  font-size: 3.91vw;
+  font-weight: 300;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+#homebtntxt{
+  width: 26.48vw;
+  bottom: 10vw;
+}
+
+#home{
+  position: relative;
+  width: 3vw;
+  height: 4.22vw;
+  background-image: url("../img/home_light.svg");
+  background-size: cover;  
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  display: none; 
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-form {
+  width: 41.91vw;
+  height: 40vw;
+  background-color: white;
+  padding: 2vw;
+  box-sizing: border-box;
+  border: 0.12vw solid #212121;
+  position: relative;
+  font-family: "Raleway";
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.popup-form label {
+  font-size: 1.25vw;
+  margin-top: 1.37vw;
+  margin-bottom: 1.02vw;
+}
+
+.popup-form input,
+.popup-form textarea {
+  width: 100%;
+  height: 2.89vw;
+  border: 0.12vw solid #212121;
+  font-family: "Raleway";
+  font-size: 1.25vw;
+  padding: 0 1vw;
+  margin: 1.02vw 0vw 1.41vw 0vw;
+  box-sizing: border-box;
+  color: #212121;
+}
+
+.popup-form textarea {
+  resize: none;
+  padding-top: 0.5vw;
+  height: auto;
+}
+
+.popup-form input::placeholder,
+.popup-form textarea::placeholder {
+  color: #212121;
+  opacity: 0.5;
+}
+
+.popup-form button[type="submit"] {
+  margin-top: 2vw;
+  font-size: 1.56vw;
+  font-family: "Raleway";
+  color: #212121;
+  background-color: white;
+  border: 0.12vw solid #212121;
+  padding: 0.8vw 2vw;
+  cursor: url("../img/cursor-pointer.svg"), auto;
+  position: relative;
+  align-self: center;
+}
+
+.popup-form .close {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  font-size: 2vw;
+  background: none;
+  border: none;
+  color: #212121;
+  cursor: pointer;
+}

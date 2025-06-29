@@ -1,0 +1,158 @@
+@media only screen and (min-device-width: 360px) and (max-device-width: 767px){
+    .first{
+        width: 100%;
+        height: 100vw;
+    }
+
+    .second{
+        width: 100%;
+        height: 100vw;
+    }
+
+    .square{
+        width: 50%;
+        height: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    @keyframes ball1{
+        0%{top: -100%; left: 0%}
+        100%{top: 40%; left: 0%}
+    }
+
+    .circle1, .circle2, .circle3, .circle4, .circle5, .circle6,
+    .circle7, .circle8, .circle9, .circle10, .circle11, .circle12{
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .circle2{
+        margin-left: 8vw;
+    }
+
+    .circle3{
+        margin-left: 9vw;
+    }
+
+    .circle4{
+        margin-left: 10vw;
+    }
+
+    .circle5{
+        margin-left: 12vw;
+    }
+
+    .circle6{
+        margin-left: 14vw;
+    }
+
+    .circle7{
+        margin-left: 16vw;
+    }
+
+    .circle8{
+        margin-left: 22vw;
+    }
+
+    .circle9{
+        margin-left: 23vw;
+    }
+
+    .circle10{
+        margin-left: 35vw;
+    }
+    
+    .circle11{
+        margin-left: 39vw;
+    }
+
+    .circle12{
+        margin-left: 40vw;
+    }
+
+    .smile, .anim3, .anim2, .scream, .anim4, .eye2, .squareanim6, .eye3{
+        display: none;
+    }
+
+    .aball1, .aball2, .aball3, .aball4, .aball5, .aball6,
+    .aball7, .aball8, .aball9, .aball10, .aball11, .aball12,
+    .aball13, .aball14, .aball15, .aball16, .aball17{
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .eball1, .eball2, .eball3, .eball4, .eball5, .eball6, .eball7, .eball8{
+        width: 10vw;
+        height: 10vw;
+        filter: blur(2.3vw);
+    }
+
+    .angerswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 79.9%;
+        left: 3.7%;
+    }
+
+    .sadswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 68.4%;
+        left: 3.7%;
+    }
+
+    .fearswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 56.9%;
+        left: 3.7%;
+    }
+
+    .melancholyswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 45.4%;
+        left: 3.7%;
+    }
+
+    .loveswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 33.9%;
+        left: 3.7%;
+    }
+
+    .happyswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 22.9%;
+        left: 3.7%;
+    }
+
+    .desireswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 11.9%;
+        left: 3.7%;
+    }
+
+    .activityswitch{
+        width: 5vw;
+        height: 5vw;
+        top: 0%;
+        left: 3.7%;
+    }
+
+    .cball1, .cball2, .cball3, .cball4, .cball5, .cball6, .cball7, .cball8{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .dball1, .dball2, .dball3, .dball4, .dball5, .dball6,
+    .dball7, .dball8, .dball9, .dball10, .dball11, .dball12,
+    .dball13, .dball14, .dball15, .dball16, .dball17{
+        width: 4vw;
+        height: 4vw;
+    }
+}

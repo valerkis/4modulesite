@@ -1,0 +1,1479 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+
+.first{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.second{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+
+.square{
+    width: 25vw;
+    height: 25vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.eye{
+    background-image: url("../img/eye1.svg");
+    background-size: contain;
+}
+
+.eye:hover{background-image: url("../img/eye2.svg");}
+
+
+
+.smile{
+    background-image: url("../img/smile1.svg");
+    background-size: contain;
+}
+
+.smile:hover{background-image: url("../img/smile2.svg");}
+
+.anger{
+    background-image: url("../img/anger1.svg");
+    background-size: contain;
+}
+
+.anger:hover{background-image: url("../img/anger2.svg");}
+
+.scream{
+    background-image: url("../img/scream1.svg");
+    background-size: contain;
+}
+
+.scream:hover{background-image: url("../img/scream2.svg");}
+
+.circle1{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    border: 2vw white;
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 0.3vw;
+    animation: ball1 2s linear infinite; 
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+@keyframes ball1{
+    0%{top: -100%; left: 0%}
+    100%{top: 0%; left: 0%}
+}
+
+.circle1:hover{animation-play-state: paused;}
+
+.circle2{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #D4A0B9;
+    border: 2vw white;
+    position: absolute;
+    margin-top: 16vw;
+    margin-left: 4vw;
+    animation: ball1 1s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+
+.circle2:hover{animation-play-state: paused;}
+
+.circle3 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    border: 2vw white;
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 5vw;
+    animation: ball1 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle3:hover{animation-play-state: paused;}
+
+.circle4 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 8vw;
+    animation: ball1 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle4:hover{animation-play-state: paused;}
+
+.circle5 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #DAC3A1;
+    position: absolute;
+    margin-top: 19.5vw;
+    margin-left: 9.5vw;
+    animation: ball1 2s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle5:hover{animation-play-state: paused;}
+
+.circle6 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 12vw;
+    animation: ball1 1s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle6:hover{animation-play-state: paused;}
+
+.circle7 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 14vw;
+    animation: ball1 1.75s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle7:hover{animation-play-state: paused;}
+
+.circle8 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #909747;
+    position: absolute;
+    margin-top: 16vw;
+    margin-left: 16vw;
+    animation: ball1 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle8:hover{animation-play-state: paused;}
+
+.circle9 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #D4EDCB;
+    position: absolute;
+    margin-top: 20.5vw;
+    margin-left: 18vw;
+    animation: ball1 2s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle9:hover{animation-play-state: paused;}
+
+.circle10 {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 20.5vw;
+    animation: ball1 1.75s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle10:hover{animation-play-state: paused;}
+
+.circle11{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 19vw;
+    animation: ball1 1.75s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.circle11:hover{animation-play-state: paused;}
+
+.anim4{
+    background-image: url("../img/ellipse.svg");
+    background-size: 99%;
+}
+.circle12{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #EBA6BB;
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 11.5vw;
+    animation: ball1 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+.anim2:hover{
+    background-image: url("../img/anim2.svg");
+    background-size: contain;
+}
+
+.aball1{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    position: absolute;
+    animation: aball1 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball1{
+    0%{top: -10%; left: 46%}
+    100%{top: 34%; left: 46%}
+}
+
+.aball2{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    position: absolute;
+    animation: aball2 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball2{
+    0%{top: 110%; left: 46%}
+    100%{top: 58%; left: 46%}
+}
+
+.aball3{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    position: absolute;
+    animation: aball3 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball3{
+    0%{top: 46%; left: -10%}
+    100%{top: 46%; left: 34%}
+}
+
+.aball4{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    position: absolute;
+    animation: aball4 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball4{
+    0%{top: 46%; left: 110%}
+    100%{top: 46%; left: 58%}
+}
+
+.aball5{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    position: absolute;
+    animation: aball5 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball5{
+    0%{top: -10%; left: 110%}
+    100%{top: 37%; left: 55%}
+}
+
+.aball6{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    position: absolute;
+    animation: aball6 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball6{
+    0%{top: -10%; left: -10%}
+    100%{top: 37%; left: 37%}
+}
+
+.aball7{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #909747;
+    position: absolute;
+    animation: aball7 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball7{
+    0%{top: 110%; left: -10%}
+    100%{top: 55%; left: 37%}
+}
+
+.aball8{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    position: absolute;
+    animation: aball8 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball8{
+    0%{top: 110%; left: 110%}
+    100%{top: 55%; left: 55%}
+}
+
+.aball9{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #DAC3A1;
+    position: absolute;
+    animation: aball9 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball9{
+    0%{top: 45%; left: 110%}
+    100%{top: 45%; left: 70%}
+}
+
+.aball10{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #D4EDCB;
+    position: absolute;
+    animation: aball10 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball10{
+    0%{top: -10%; left: 100%}
+    100%{top: 28%; left: 61%}
+}
+
+.aball11{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #D85E76;
+    position: absolute;
+    animation: aball11 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball11{
+    0%{top: 0%; left: -10%}
+    100%{top: 39%; left: 28%}
+}
+
+.aball12{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF8C72;
+    position: absolute;
+    animation: aball12 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball12{
+    0%{top: -10%; left: 10%}
+    100%{top: 14%; left: 27%}
+}
+
+.aball13{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #B3B694;
+    position: absolute;
+    animation: aball13 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball13{
+    0%{top: 110%; left: 10%}
+    100%{top: 78%; left: 27%}
+}
+
+.aball14{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #D4A0B9;
+    position: absolute;
+    animation: aball14 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball14{
+    0%{top: 18%; left: -8%}
+    100%{top: 28%; left: 2%}
+}
+
+.aball15{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #DDD7C1;
+    position: absolute;
+    animation: aball15 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball15{
+    0%{top: 10%; left: 110%}
+    100%{top: 21%; left: 83%}
+}
+
+.aball16{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF7874;
+    position: absolute;
+    animation: aball16 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball16{
+    0%{top: 76%; left: 110%}
+    100%{top: 66%; left: 76%}
+}
+
+.aball17{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #EBA6BB;
+    position: absolute;
+    animation: aball17 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes aball17{
+    0%{top: 100%; left: 80%}
+    100%{top: 87%; left: 63%}
+}
+
+.circle{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #B3B3CF;
+    position: absolute;
+    animation: ball 3s linear infinite, changeColor 5s infinite;
+    animation-play-state: running;
+}
+
+@keyframes ball{
+        0%{top: 50%; left: 2%}
+        30%{top: 4%; left: 25%}
+        50%{top: 6%; left: 60%}
+        70%{top: 75%; left: 66%}
+        100%{top: 50%; left: 2%}
+    }
+
+@keyframes changeColor {
+        0% {background-color:  #B3B3CF;}
+        30% {background-color:  #FFAA91;}
+        50% {background-color:  #D7F5E1;}
+        70% {background-color:  #FD91B1;}
+        100% {background-color: #C5C7B1;}
+      }
+
+.circle:hover{animation-play-state: paused;}
+
+.anim3{
+    background-image: url("../img/anim3.png");
+    background-size: 100%;
+}
+
+.bball1{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    position: absolute;
+    top: 45%; left: 42%;
+    animation: bball1 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball1{
+    0%{transform: scale(1)}
+    100%{transform: scale(20); opacity: 0}
+}
+
+.bball2{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    position: absolute;
+    top: 38%; left: 37%;
+    animation: bball2 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball2{
+    0%{transform: scale(1)}
+    100%{transform: scale(18); opacity: 0}
+}
+
+.bball3{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    position: absolute;
+    top: 35%; left: 46%;
+    animation: bball3 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball3{
+    0%{transform: scale(1)}
+    100%{transform: scale(16); opacity: 0}
+}
+
+.bball4{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    position: absolute;
+    top: 40%; left: 54%;
+    animation: bball4 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball4{
+    0%{transform: scale(1)}
+    100%{transform: scale(14); opacity: 0}
+}
+
+.bball5{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    position: absolute;
+    top: 49%; left: 53%;
+    animation: bball5 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball5{
+    0%{transform: scale(1)}
+    100%{transform: scale(12); opacity: 0}
+}
+
+.bball6{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #909747;
+    position: absolute;
+    top: 56%; left: 48%;
+    animation: bball6 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball6{
+    0%{transform: scale(1)}
+    100%{transform: scale(10); opacity: 0}
+}
+
+.bball7{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    position: absolute;
+    top: 57%; left: 39%;
+    animation: bball7 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball7{
+    0%{transform: scale(1)}
+    100%{transform: scale(8); opacity: 0}
+}
+
+.bball8{
+    width: 1.9vw;
+    height: 1.9vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    position: absolute;
+    top: 53%; left: 30%;
+    animation: bball8 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bball8{
+    0%{transform: scale(1)}
+    100%{transform: scale(6); opacity: 0}
+}
+
+.eye1{
+    background-image: url("../img/1eye.png");
+    background-size: contain;
+}
+
+.eye1:hover{background-image: url("../img/1eye2.svg");}
+
+.eye2{
+    background-image: url("../img/2eye.svg");
+    background-size: contain;
+}
+
+.eye2:hover{background-image: url("../img/2eye2.svg");}
+
+.anim5{
+    background-image: url("../img/anim5.svg");
+    background-size: 99%;
+}
+
+.cball1{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #7C7BC8;
+    position: absolute;
+    animation: cball1 2.2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball1{
+    0%{top: 46%; left: 1%}
+    100%{top: 46%; left: 37%}
+}
+
+.cball2{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FF5C00;
+    position: absolute;
+    animation: cball2 1s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball2{
+    0%{top: 46%; left: 90%}
+    100%{top: 46%; left: 55%}
+}
+
+.cball3{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #A9A9A9;
+    position: absolute;
+    animation: cball3 2.5s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball3{
+    0%{top: 90%; left: 46%}
+    100%{top: 56%; left: 46%}
+}
+
+.cball4{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FFC556;
+    position: absolute;
+    animation: cball4 2s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball4{
+    0%{top: 27%; left: 57%}
+    50%{top: 35%; left: 46%}
+    100%{top: 1%; left: 46%}
+}
+
+.cball5{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FF427A;
+    position: absolute;
+    animation: cball5 3s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball5{
+    0%{top: 63%; left: 74%}
+    50%{top: 53%; left: 54%}
+    100%{top: 77%; left: 78%}
+}
+
+.cball6{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #FF3E3E;
+    position: absolute;
+    animation: cball6 3s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball6{
+    0%{top: 39%; left: 28%}
+    25%{top: 38%; left: 38%}
+    50%{top: 14%; left: 14%}
+    75%{top: 38%; left: 38%}
+    100%{top: 15%; left: 29%}
+}
+
+.cball7{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #9AF2F2;
+    position: absolute;
+    animation: cball7 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball7{
+    0%{top: 14%; left: 78%}
+    50%{top: 38%; left: 54%}
+    100%{top: 42%; left: 68%}
+}
+
+.cball8{
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+    background-color: #909747;
+    position: absolute;
+    animation: cball8 1.5s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cball8{
+    0%{top: 74%; left: 29%}
+    50%{top: 53%; left: 38%}
+    100%{top: 77%; left: 14%}
+}
+
+.squareanim6{
+    width: 25vw;
+    height: 25vw;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
+}
+
+.ring1{
+    position: absolute;
+    margin: auto;
+    animation: anim6 2.5s linear infinite;
+    overflow: hidden;
+    animation-direction: normal;
+    z-index: 1;
+}
+
+.ring1:hover{animation-direction: reverse;}
+
+.ring1img{
+    width: 7vw;
+    height: 7vw;
+}
+
+@keyframes anim6{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+
+.ring2{
+    position: absolute;
+    margin: auto;
+    animation: anim6 4s linear infinite;
+    overflow: hidden;
+}
+
+.ring2img{
+    width: 12vw;
+    height: 12vw;
+}
+
+.ring3{
+    position: absolute;
+    margin: auto;
+    animation: anim6 6s linear infinite;
+    overflow: hidden;
+}
+
+.ring3img{
+    width: 18vw;
+    height: 18vw;
+}
+
+.ring4{
+    position: absolute;
+    margin: auto;
+    animation: anim6 9s linear infinite;
+    overflow: hidden;
+}
+
+
+.ring4img{
+    width: 24vw;
+    height: 24vw;
+}
+
+.eye3{
+    background-image: url("../img/3eye.svg");
+    background-size: contain;
+}
+
+.eye3:hover{background-image: url("../img/3eye2.svg");}
+
+.eye4{
+    background-image: url("../img/4eye.svg");
+    background-size: contain;
+}
+
+.eye4:hover{background-image: url("../img/4eye2.svg");}
+
+.anim7{
+    background-image: url("../img/anim7.svg");
+    background-size: 99%;
+}
+
+.dball1{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    position: absolute;
+    animation: dball1 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball1{
+    0%{top: 3%; left: 89%}
+    100%{top: 3%; left: -10%}
+}
+
+.dball2{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    position: absolute;
+    animation: dball2 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball2{
+    0%{top: 3%; left: 77%}
+    100%{top: 3%; left: -10%}
+}
+
+.dball3{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    position: absolute;
+    animation: dball3 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball3{
+    0%{top: 3%; left: 65%}
+    100%{top: 3%; left: -10%}
+}
+
+.dball4{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    position: absolute;
+    animation: dball4 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball4{
+    0%{top: 3%; left: 52%}
+    100%{top: 3%; left: -10%}
+}
+
+.dball5{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    position: absolute;
+    animation: dball5 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball5{
+    0%{top: 3%; left: 39%}
+    100%{top: 3%; left: -10%}
+}
+
+.dball6{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #909747;
+    position: absolute;
+    animation: dball6 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball6{
+    0%{top: 3%; left: 27%}
+    100%{top: 3%; left: -10%}
+}
+
+.dball7{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    position: absolute;
+    animation: dball7 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball7{
+    0%{top: 3%; left: 14%}
+    100%{top: 3%; left: -10%}
+}
+
+.dball8{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    position: absolute;
+    animation: dball8 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball8{
+    0%{top: 3%; left: 2%}
+    100%{top: 3%; left: -10%}
+}
+
+
+.dball9{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #DAC3A1;
+    position: absolute;
+    animation: dball9 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball9{
+    0%{top: 31%; left: 43%}
+    100%{top: 31%; left: 110%}
+}
+
+.dball10{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #D4EDCB;
+    position: absolute;
+    animation: dball10 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball10{
+    0%{top: 31%; left: 58%}
+    100%{top: 31%; left: 110%}
+}
+
+.dball11{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #D85E76;
+    position: absolute;
+    animation: dball11 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball11{
+    0%{top: 31%; left: 87%}
+    100%{top: 31%; left: 110%}
+}
+
+.dball12{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #FF8C72;
+    position: absolute;
+    animation: dball12 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball12{
+    0%{top: 59%; left: 3%}
+    100%{top: 59%; left: -10%}
+}
+
+.dball13{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #B3B694;
+    position: absolute;
+    animation: dball13 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball13{
+    0%{top: 59%; left: 29%}
+    100%{top: 59%; left: -10%}
+}
+
+.dball14{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #FF7874;
+    position: absolute;
+    animation: dball14 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball14{
+    0%{top: 59%; left: 62%}
+    100%{top: 59%; left: -10%}
+}
+
+.dball15{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #D4A0B9;
+    position: absolute;
+    animation: dball15 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball15{
+    0%{top: 88%; left: 18%}
+    100%{top: 88%; left: 110%}
+}
+
+.dball16{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #EBA6BB;
+    position: absolute;
+    animation: dball16 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball16{
+    0%{top: 88%; left: 51%}
+    100%{top: 88%; left: 110%}
+}
+
+.dball17{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #DDD7C1;
+    position: absolute;
+    animation: dball17 2s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes dball17{
+    0%{top: 88%; left: 75%}
+    100%{top: 88%; left: 110%}
+}
+
+.eball1{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball11 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball11{
+    0%{top: 8%; left: 8%}
+    50%{top: 20%; left: 80%}
+    100%{top: 88%; left: 20%}
+}
+
+.eball2{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball12 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball12{
+    0%{top: 88%; left: 50%}
+    50%{top: 20%; left: 80%}
+    100%{top: 8%; left: 2%}
+}
+
+.eball3{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #909747;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball13 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball13{
+    0%{top: 20%; left: 5%}
+    50%{top: 80%; left: 30%}
+    100%{top: 40%; left: 2%}
+}
+
+.eball4{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball14 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball14{
+    0%{top: 60%; left: 5%}
+    50%{top: 10%; left: 80%}
+    100%{top: 40%; left: 70%}
+}
+
+.eball5{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball15 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball15{
+    0%{top: 10%; left: 10%}
+    50%{top: 60%; left: 10%}
+    100%{top: 90%; left: 30%}
+}
+
+
+.eball6{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball16 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball16{
+    0%{top: 10%; left: 80%}
+    50%{top: 70%; left: 10%}
+    100%{top: 90%; left: 60%}
+}
+
+.eball7{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball17 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball17{
+    0%{top: 80%; left: 80%}
+    50%{top: 20%; left: 10%}
+    100%{top: 40%; left: 10%}
+}
+
+
+.eball8{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    filter: blur(1.3vw);
+    position: absolute;
+    animation: eball18 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes eball18{
+    0%{top: 50%; left: 10%}
+    50%{top: 70%; left: 90%}
+    100%{top: 40%; left: 90%}
+}
+
+  .running{
+    background: white;
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 6.3vw;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    text-transform: uppercase;
+  }
+        
+.items{
+    display: flex;
+    width: fit-content;
+    animation: ticker 10s linear infinite;
+    animation-direction: normal;
+}
+
+.items:hover{animation-direction: reverse;}
+        
+.item{
+    margin-left: 2vw;
+}
+
+@keyframes ticker{
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .anim4{
+    background-image: url("../img/ellipse.svg");
+    background-size: 100%;
+}
+
+.player{
+    width: 100vw;
+    height: 56vw;
+    overflow: hidden;
+    position: relative;
+    transition: ease 0.5s;
+}
+
+.player{
+    background-image: url("../img/emotiondefault.svg");
+    background-size: 100%;
+}
+
+.angerswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #FF3E3E;
+    position: absolute;
+    top: 84.7%;
+    left: 5.2%;
+}
+
+.player:has(.angerswitch:hover){
+    background-image: url("../img/emotionanger.svg");
+    background-size: 100%;
+}
+
+.sadswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #7C7BC8;
+    position: absolute;
+    top: 72.7%;
+    left: 5.2%;
+}
+
+.player:has(.sadswitch:hover){
+    background-image: url("../img/emotionsadness.svg");
+    background-size: 100%;
+}
+
+.fearswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #909747;
+    position: absolute;
+    top: 60.7%;
+    left: 5.2%;
+}
+
+.player:has(.fearswitch:hover){
+    background-image: url("../img/emotionfear.svg");
+    background-size: 100%;
+}
+
+.melancholyswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    position: absolute;
+    top: 48.7%;
+    left: 5.2%;
+}
+
+.player:has(.melancholyswitch:hover){
+    background-image: url("../img/emotionmelancholy.svg");
+    background-size: 100%;
+}
+
+.loveswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #FF427A;
+    position: absolute;
+    top: 36.7%;
+    left: 5.2%;
+}
+
+.player:has(.loveswitch:hover){
+    background-image: url("../img/emotionlove.svg");
+    background-size: 100%;
+}
+
+.happyswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #FF5C00;
+    position: absolute;
+    top: 24%;
+    left: 5.2%;
+}
+
+.player:has(.happyswitch:hover){
+    background-image: url("../img/emotionhappyness.svg");
+    background-size: 100%;
+}
+
+.desireswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #9AF2F2;
+    position: absolute;
+    top: 12%;
+    left: 5.2%;
+}
+
+.player:has(.desireswitch:hover){
+    background-image: url("../img/emotiondesire.svg");
+    background-size: 100%;
+}
+
+.activityswitch{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background-color: #FFC556;
+    position: absolute;
+    top: 0%;
+    left: 5.2%;
+}
+
+.player:has(.activityswitch:hover){
+    background-image: url("../img/emotionactivity.svg");
+    background-size: 100%;
+}
